@@ -53,7 +53,7 @@
 
 - Go to the session directory:
     ```sh
-    cd finding-your-inner-spark
+    cd ebi-spark-sessions/finding-your-inner-spark
     ```
 
 - Create a virtual environment using you brand new Python3 installation:
