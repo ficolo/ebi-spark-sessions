@@ -24,9 +24,14 @@
 - Install [Python 3+](https://www.python.org/), if you don't have it already. *Friendly reminder: [Python 2.7 IS DYING AND YOU SHOULD NOT USE IT ☠️](https://pythonclock.org/)*.
 
 
-- Create a directory to work in:
+- Clone this repo:
 ```sh
-mkdir spot-dev-talk-spark && cd spot-dev-talk-spark
+git clone https://github.com/ficolo/ebi-spark-sessions.git
+```
+
+- Go to the session directory:
+```sh
+cd finding-your-inner-spark
 ```
 
 - Create a virtual environment using you brand new Python3 installation:
