@@ -83,3 +83,13 @@
     export SPARK_HOME=$(pwd)/spark-2.4.5-bin-hadoop2.7/
     export SPARK_LOCAL_IP="127.0.0.1"
     ```
+
+### Testing your installation
+ - Start Jupyter, this should open a new window of your browser with Jupyter:
+     ```shell script
+     jupyter notebook
+    ```
+
+- Open the *Test setup* notebook:
+
+- Run the notebook line by line using Shift + Enter, you should get an output like this:
