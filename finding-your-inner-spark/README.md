@@ -90,6 +90,7 @@
      jupyter notebook
     ```
 
-- Open the *Test setup* notebook:
-
-- Run the notebook line by line using Shift + Enter, you should get an output like this:
+- Open the **test-setup.ipynb** notebook:
+![Jupyter test setup](../img/jupyter-test-setup.png)
+- Run the notebook line by line using **Shift + Enter**, you should get an output like this:
+![Jupyter test output](../img/jupyter-test-setup-1.png)
