@@ -74,7 +74,7 @@
 ### Setting up your Spark environment
 - First Download [Apache Spark](https://spark.apache.org/)
     ```sh
-    wget https://www.apache.org/dyn/closer.lua/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz
+    wget http://apache.mirror.anlx.net/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz
     tar -xzf spark-2.4.5-bin-hadoop2.7.tgz
     ```
 
@@ -92,5 +92,6 @@
 
 - Open the **test-setup.ipynb** notebook:
 ![Jupyter test setup](../img/jupyter-test-setup.png)
+
 - Run the notebook line by line using **Shift + Enter**, you should get an output like this:
 ![Jupyter test output](../img/jupyter-test-setup-1.png)
