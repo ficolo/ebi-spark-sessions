@@ -43,7 +43,7 @@
             ```
 
 
-- Install [Python 3+](https://www.python.org/), if you don't have it already. *Friendly reminder: [Python 2.7 IS DYING AND YOU SHOULD NOT USE IT ☠️](https://pythonclock.org/)*.
+- Install [Python 3.7](https://www.python.org/), if you don't have it already. [PySpark has an known issue running on Python 3.8](https://stackoverflow.com/questions/58700384/how-to-fix-typeerror-an-integer-is-required-got-type-bytes-error-when-tryin), so please make sure you are using Python 3.7. *Friendly reminder: [Python 2.7 IS DYING AND YOU SHOULD NOT USE IT ☠️](https://pythonclock.org/)*.
 
 
 - Clone this repo:
@@ -60,6 +60,26 @@
     ```sh
     python3 -m venv .venv
     ```
+ 
+- If you have Python 3.8 installed, the easiest way to create a Python 3.7 virtual environment is using pyenv
+    - To install pyenv in MacOS:
+        ```sh
+        brew install openssl readline sqlite3 xz zlib
+        sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+        curl https://pyenv.run | bash
+        ```
+    - To install pyenv in Debian based OS:
+        ```sh
+        sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
+        curl https://pyenv.run | bash
+        ```
+    - Installing Python 3.7 and creating a virtual environment using pyenv:
+        ```sh
+        pyenv install -v 3.7.5
+        pyenv global 3.7.5
+        python -V
+        python -m venv .venv
+        ```
 
 - Activate your awesome virtual environment:
     ```sh
@@ -95,3 +115,6 @@
 
 - Run the notebook line by line using **Shift + Enter**, you should get an output like this:
 ![Jupyter test output](../img/jupyter-test-setup-1.png)
+
+## Troubleshoot
+
