@@ -116,5 +116,13 @@
 - Run the notebook line by line using **Shift + Enter**, you should get an output like this:
 ![Jupyter test output](../img/jupyter-test-setup-1.png)
 
-## Troubleshoot
+## Install Vega for data visualisation
+With you virtual environment active just run:
+```shell script
+pip install vega
+pip install --upgrade notebook
+jupyter nbextension install --sys-prefix --py vega
+jupyter nbextension enable vega --py --sys-prefix
+```
+And restart your Jupyter server.
 
